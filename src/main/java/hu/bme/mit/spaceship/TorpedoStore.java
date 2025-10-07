@@ -34,6 +34,7 @@ public class TorpedoStore {
     if(numberOfTorpedos < 1 || numberOfTorpedos > this.torpedoCount){
       throw new IllegalArgumentException("numberOfTorpedos");
     }
+    //comment asked for lab
 
     boolean success = false;
 
